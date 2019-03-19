@@ -12,25 +12,23 @@
 .image3 {
   width: 400px;
   height: 500px;
+  position: relative;
 }
 
 .image1 {
   background-image: url("img/pd1.jpg");
   background-size: cover;
-  position: relative;
 }
 
 .image2 {
   background-image: url("img/pd2.jpg");
   background-size: cover;
-  position: relative;
 }
 
 
 .image3 {
   background-image: url("img/pd3.jpg");
   background-size: cover;
-  position: relative;
 }
 
 .sconto30 {
@@ -49,4 +47,24 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+#heart {
+  width: 40px;
+  position: absolute;
+  bottom: 20px;
+  left: 180px;
+  display: none;
+}
+
+.image1:hover  #heart {
+  display: block;
+}
+
+.image2:hover  #heart {
+  display: block;
+}
+
+.image3:hover  #heart {
+  display: block;
 }
