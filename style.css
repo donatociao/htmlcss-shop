@@ -1,25 +1,52 @@
-.container1,
-.container2 {
-  widht:1200px;
-  height: 600px;
-  border: 1px solid black;
-
-}
 .container1 div{
   display: inline-block;
+  margin: auto;
 }
 
 .container2 div{
   display: inline-block;
-  position: relative;
-  top: 20px;
 }
 
 .image1,
 .image2,
 .image3 {
-  background-color: red;
   width: 400px;
-  height: 600px;
-  border: 1px solid black;
+  height: 500px;
+}
+
+.image1 {
+  background-image: url("img/pd1.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.image2 {
+  background-image: url("img/pd2.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+
+.image3 {
+  background-image: url("img/pd3.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.sconto30 {
+  background-color: red;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.sconto5 {
+  background-color: green;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
