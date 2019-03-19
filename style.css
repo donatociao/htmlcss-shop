@@ -1,36 +1,41 @@
-.container1 div{
+
+.container1 div,
+.container2 div {
   display: inline-block;
+}
+
+.container1 {
+  width: 1240px;
   margin: auto;
 }
 
-.container2 div{
-  display: inline-block;
-}
 
+/*STYLE IMAGES==========================*/
 .image1,
 .image2,
 .image3 {
   width: 400px;
   height: 500px;
   position: relative;
+  background-size: cover;
+  margin: auto;
 }
 
 .image1 {
   background-image: url("img/pd1.jpg");
-  background-size: cover;
 }
 
 .image2 {
   background-image: url("img/pd2.jpg");
-  background-size: cover;
 }
-
 
 .image3 {
   background-image: url("img/pd3.jpg");
-  background-size: cover;
 }
+/*=====================================*/
 
+
+/*SCONTO===============================*/
 .sconto30 {
   background-color: red;
   font-size: 30px;
@@ -48,7 +53,10 @@
   right: 0;
   top: 0;
 }
+/*=====================================*/
 
+
+/*HOVER STYLE==========================*/
 #heart {
   width: 40px;
   position: absolute;
@@ -68,3 +76,4 @@
 .image3:hover  #heart {
   display: block;
 }
+/*=====================================*/
